@@ -1,0 +1,39 @@
+/* General Card Styling */
+.card {
+    background-color: #f7c654;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  /* Swiper Styling */
+  .swiper-pagination-bullet {
+    background: #000 !important;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .card-content {
+      font-size: 14px;
+    }
+  }
+  
