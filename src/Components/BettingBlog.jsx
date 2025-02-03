@@ -10,7 +10,7 @@ import {
 } from '@mui/material';
 import Bet_01 from '../assets/images/Betting/Betting_01.jpg';
 import Bet_02 from '../assets/images/Betting/Betting_02.webp';
-import Bet_03 from '../assets/images/Betting/Betting.webp';
+import Bet_03 from '../assets/images/Betting/Betting_03.webp';
 
 const blogPosts = [
     {
